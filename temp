@@ -1,0 +1,23 @@
+
+
+
+
+
+<nav class="bg-black shadow">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex">
+            <img src="https://i.pinimg.com/736x/a4/2d/4b/a42d4ba0e127ea3f62026ace6803f94d.jpg" class="w-12 h-11" alt="">
+          <a href="#" class="text-2xl font-bold text-white">CameraPro</a>
+        </div>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <div class="ml-10 flex items-baseline space-x-4 ">
+            <a href="#" class="text-white hover:text-indigo-500 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+            <a href="#" class="text-white hover:text-indigo-500 px-3 py-2 rounded-md text-sm font-medium">Products</a>
+            <a href="#" class="text-white hover:text-indigo-500 px-3 py-2 rounded-md text-sm font-medium">About</a>
+            <a href="#" class="text-white hover:text-indigo-500 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>

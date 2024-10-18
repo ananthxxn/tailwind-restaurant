@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camera Store</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-gray-100">
+  <!-- Navbar -->
+  <nav class="bg-black shadow">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <!-- Logo -->
+        <div class="flex-shrink-0">
+          <a href="#" class="text-2xl font-bold text-white">CameraPro</a>
+        </div>
+
+        <!-- Desktop Menu (Hidden on mobile) -->
+        <div class="hidden md:flex space-x-4">
+          <a href="#" class="text-white hover:text-amber-500 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+          <a href="#" class="text-white hover:text-amber-500 px-3 py-2 rounded-md text-sm font-medium">Products</a>
+          <a href="#" class="text-white hover:text-amber-500 px-3 py-2 rounded-md text-sm font-medium">About</a>
+          <a href="#" class="text-white hover:text-amber-500 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+        </div>
+
+        <!-- Hamburger Menu Icon (Mobile) -->
+        <div class="md:hidden">
+          <button onclick="toggleMenu()" type="button" class="text-white hover:text-amber-500 focus:outline-none focus:text-amber-500">
+            <!-- Hamburger icon -->
+            <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    
+  </nav>
+
+  <!-- main Section -->
+  <section class="bg-cover bg-center h-screen w-full" style="background-image: url('https://images.unsplash.com/photo-1503043259787-e75660c42572?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRhcmslMjBjYW1lcmF8ZW58MHx8MHx8fDA%3D');">
+    <div class="flex items-center justify-center h-full bg-gray-900 bg-opacity-0">
+      <div class="text-center">
+        <h1 class="text-4xl font-bold text-white">FROM FRAME, TO PERFECTION</h1>
+        <p class="text-lg text-gray-300 mt-4">Discover our latest cameras and accessories for every customer.</p>
+        <a href="#" class="mt-8 inline-block bg-transparent border-2 border-white rounded-lg text-white py-2 px-4 hover:text-amber-500 transition duration-300">Shop Now</a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="py-12 bg-black">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-white text-center mb-8">Featured Products</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Product 1 -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+          <img src="https://www.sony-asia.com/image/758b24402475a2374ff4b8095a2f3966?fmt=pjpeg&wid=1014&hei=396&bgcolor=F1F5F9&bgc=F1F5F9" alt="Camera 1" class="w-full h-48 object-cover p-4">
+          <div class="pt-24 pb-4 px-4">
+            <h3 class="text-lg font-bold">Camera Model 1</h3>
+            <p class="text-gray-700">$499.99</p>
+            <a href="#" class="mt-4 inline-block bg-indigo-600 text-white py-2 px-4 rounded">Buy Now</a>
+          </div>
+        </div>
+        <!-- Product 2 -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+          <img src="https://bollywoodfilmequipments.in/wp-content/uploads/2021/06/123.jpg" alt="Camera 2" class="w-full h-72 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-bold">Camera Model 2</h3>
+            <p class="text-gray-700">$799.99</p>
+            <a href="#" class="mt-4 inline-block bg-indigo-600 text-white py-2 px-4 rounded">Buy Now</a>
+          </div>
+        </div>
+        <!-- Product 3 -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+          <img src="https://cdn1.smartprix.com/rx-ik8c7cieY-w1200-h1200/k8c7cieY.jpg" alt="Camera 3" class="w-full h-72 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-bold">Camera Model 3</h3>
+            <p class="text-gray-700">$999.99</p>
+            <a href="#" class="mt-4 inline-block bg-indigo-600 text-white py-2 px-4 rounded">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="bg-gray-900 text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-extrabold text-center mb-8">Why Choose Us</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center">
+          <span class="text-indigo-600 text-4xl mb-4 inline-block">📷</span>
+          <h3 class="text-lg font-bold">High Quality</h3>
+          <p class="text-gray-300 mt-2">Our cameras are built with precision and durability, ensuring professional results every time.</p>
+        </div>
+        <div class="text-center">
+          <span class="text-indigo-600 text-4xl mb-4 inline-block">🚚</span>
+          <h3 class="text-lg font-bold">Free Shipping</h3>
+          <p class="text-gray-300 mt-2">We offer free and fast shipping on all orders, so you can start capturing moments sooner.</p>
+        </div>
+        <div class="text-center">
+          <span class="text-indigo-600 text-4xl mb-4 inline-block">💬</span>
+          <h3 class="text-lg font-bold">24/7 Support</h3>
+          <p class="text-gray-300 mt-2">Our customer support team is here to help, anytime you need assistance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between">
+        <div>
+          <h3 class="font-bold text-lg">CameraPro</h3>
+          <p class="mt-2 text-gray-400">Capture the world with us.</p>
+        </div>
+        <div class="space-x-4">
+          <a href="#" class="text-gray-400 hover:text-white">About</a>
+          <a href="#" class="text-gray-400 hover:text-white">Products</a>
+          <a href="#" class="text-gray-400 hover:text-white">Contact</a>
+        </div>
+      </div>
+      <div class="mt-8 text-center text-gray-400">
+        &copy; 2024 CameraPro. All rights reserved.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
